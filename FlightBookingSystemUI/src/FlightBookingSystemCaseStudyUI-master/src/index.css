@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(40, 182, 207);
+}
+
+.header .links {
+  margin: 0 10px;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.showcase {
+  background: url('https://media3.giphy.com/media/TgJ0KKEY8HByASy6Jt/giphy.gif?cid=ecf05e47qmkv978ntbssi9vv7ioq639rak87cdrvk1muhdg5&rid=giphy.gif&ct=g')
+    no-repeat center/cover;
+  height: 750px;
+}
+
+.showcase .showcase-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.showcase .showcase-overlay h1 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.destinations {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(47, 218, 218);
+}
+
+.destinations h3 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.destinations .grid div {
+  background-color: #f1f1f1;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.destinations .grid div img {
+  border-radius: 10px;
+  
+}
+
+.footer {
+  background-color: #333;
+  padding: 40px;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul li {
+  margin: 0 20px;
+}
+
+.footer ul li button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.footer ul li button:hover {
+  background-color: #2c7f86;
+}
+
+/* Login */
+.login .form-control {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.login .form-control input {
+  margin: 5px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  width: 80vw;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.login .form-control button {
+  background-color: #2c7f86;
+  padding: 8px;
+  border: 2px solid #2c7f86;
+  color: #fff;
+  font-family: inherit;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .showcase {
+    background-position: top;
+  }
+
+  .showcase .showcase-overlay h1 {
+    font-size: 64px;
+  }
+
+  .showcase .showcase-overlay p {
+    font-size: 18px;
+  }
+
+  .destinations .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+  }
+
+  .destinations .grid div img {
+    height: 150px;
+    width: 300px;
+  }
+
+  .footer ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .login .form-control input {
+    width: 92vw;
+  }
+
+  .footer h6{
+    text-align: center;
+    color: white;
+  
+  }
+  .btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    margin: 8px;
+
+}
+.login .form-control {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+login .form-control button:hover {
+  background-color: black;
+}
+
+}
